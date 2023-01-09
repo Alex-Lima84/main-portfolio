@@ -1,7 +1,11 @@
 {
-  "app_title": "Título",
+  "app_title": "Portfólio",
   "language": "Idioma",
   "initial_message_1": "Meu nome é:",
   "initial_message_2": "Sou um desenvolvedor Front-End",
-  "initial_message_3": "Localizado em Santa Catarina, Sou focado, curioso e apaixonado por tecnologia."
- }
+  "initial_message_3": "Localizado em Santa Catarina, Sou focado, curioso e apaixonado por tecnologia.",
+  "about_me": "Sobre",
+  "abilities": "Habilidades",
+  "projects": "Projetos",
+  "resume": "Currículo"
+}
