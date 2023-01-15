@@ -7,6 +7,7 @@ import Nav from '../../components/nav'
 import "bootstrap/dist/js/bootstrap.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "flag-icons/css/flag-icons.min.css"
+import './styles.scss'
 
 i18next
   .use(initReactI18next)
@@ -33,7 +34,7 @@ function Home() {
   }, [currentLanguage, t])
 
   return (
-    <div className="container">
+    <div className="home-container">
       <Nav />
       <section className="hero">
 
