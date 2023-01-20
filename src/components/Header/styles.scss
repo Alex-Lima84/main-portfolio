@@ -1,0 +1,79 @@
+header {
+    font-family: "Montserrat", sans-serif;
+
+    h1 {
+        color: #1F2833;
+        font-weight: bold;
+        font-size: 1.6rem;
+    }
+
+    a {
+        color: #1F2833 !important;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: #45A29E;
+        margin: auto -16px;
+        padding: 5px auto;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+        padding-bottom: 0 0 4.5rem;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 20px;
+
+            .dropdown {
+                margin-left: -15px;
+
+                .dropdown-menu {
+                    background-color: #45A29E;
+                }
+            }
+
+            .collapse {
+                margin-left: 350px;
+            }
+        }
+
+
+        a:hover,
+        :focus {
+            color: #19c7bb !important;
+        }
+
+        .colorChange {
+            background-color: #1F2833;
+        }
+
+        .colorChange h1 {
+            color: #45A29E;
+        }
+
+        .colorChange a {
+            color: #45A29E !important;
+            text-decoration: none;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    header {
+        .navbar {
+            .container {
+                .dropdown {
+                    margin-left: -45px;
+
+                }
+
+                .collapse {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}

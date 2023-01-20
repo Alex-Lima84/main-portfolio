@@ -4,8 +4,12 @@
   "initial_message_1": "Meu nome é:",
   "initial_message_2": "Sou um desenvolvedor Front-End",
   "initial_message_3": "Localizado em Santa Catarina, Sou focado, curioso e apaixonado por tecnologia.",
+  "home": "Início",
   "about_me": "Sobre",
-  "abilities": "Habilidades",
+  "education": "Formação",
+  "experience": "Experiência",
+  "skills": "Habilidades",
   "projects": "Projetos",
+  "contact": "Contato",
   "resume": "Currículo"
 }

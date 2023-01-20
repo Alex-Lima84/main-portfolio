@@ -1,0 +1,103 @@
+.home {
+    background-color: #1F2833;
+    text-align: left;
+    padding: 5% 5%;
+    position: relative;
+    min-height: 100vh;
+
+    .home-col {
+        padding: 15% 5%;
+
+        h1,
+        h2,
+        h3,
+        p {
+            font-family: "Montserrat", sans-serif;
+            font-weight: bold;
+            color: #66FCF1;
+        }
+
+        p {
+            span {
+                font-size: large;
+                color: #C5C6C7;
+            }
+        }
+
+        .link-button {
+            margin: 5% 3% 5% 0%;
+            padding: 5px;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            background-color: #66FCF1;
+            width: 100px;
+            font-size: 16px;
+            color: #1F2833;
+
+            svg {
+                width: 20px;
+            }
+        }
+
+        .link-button:hover {
+            color: #1F2833;
+        }
+
+        .scroll-down-container {
+            display: flex;
+            position: absolute;
+            bottom: 5%;
+            left: 50%;
+
+            svg {
+                color: #fff;
+            }
+
+            svg:last-child {
+                // @include keyframes(fade){
+                //     0%{
+                //     opacity: 10.4;
+                //     }                   
+                //    100%{
+                //     opacity: 0.9;
+                //    }
+                //   }
+                // @include animate(fade, 1s, linear, 1);                
+            }    
+
+
+            h3 {
+                font-size: 16px;
+                margin: 0 5px;
+                width: 100px;
+                text-align: center;
+            }
+        }
+    }
+
+    .image-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 551px;
+        height: 550px;
+
+        .image-home {
+            width: 18%;
+            transform: rotate(0deg);
+            position: absolute;
+        }
+    }
+}
+
+@media (max-width: 1028px) {
+    .home {
+        text-align: center;
+    }
+
+    .image-home {
+        position: static;
+        transform: rotate(0);
+    }
+}
