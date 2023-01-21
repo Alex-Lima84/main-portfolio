@@ -55,17 +55,20 @@
             }
 
             svg:last-child {
-                // @include keyframes(fade){
-                //     0%{
-                //     opacity: 10.4;
-                //     }                   
-                //    100%{
-                //     opacity: 0.9;
-                //    }
-                //   }
-                // @include animate(fade, 1s, linear, 1);                
-            }    
+                animation: arrow-down .5s ease-in-out infinite alternate;
+            }
 
+            @keyframes arrow-down {
+                0% {
+                    -webkit-transform: translateY(0);
+                    opacity: 0.4;
+                }
+
+                100% {
+                    -webkit-transform: translateY(0.4em);
+                    opacity: 0.9;
+                }
+            }
 
             h3 {
                 font-size: 16px;

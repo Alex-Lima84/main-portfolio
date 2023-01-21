@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import { Row, Col } from "react-bootstrap";
 import Typewriter from 'react-ts-typewriter';
-import ScrollAnimation from "react-animate-on-scroll";
 import PictureAsPdfIcon from "@material-ui/icons/PictureAsPdf";
+import "animate.css/animate.min.css";
 import EmailIcon from "@material-ui/icons/Email";
 import homeImage from "../../assets/images/front.png";
 import { VscArrowDown } from "react-icons/vsc";
@@ -31,7 +31,7 @@ i18next
     },
   });
 
-function Home() { 
+function Home() {
   const { t } = useTranslation();
   const currentLanguage = localStorage.getItem('i18nextLng')
 
@@ -43,38 +43,38 @@ function Home() {
     <section className="section home" id="home">
       <Row>
         <Col lg={6} className="home-col">
-          <ScrollAnimation animateIn="animate__backInLeft">
-            <h2>Welcome to my portfolio</h2>
-            <h2>My name is</h2>
-            <h1>Alexandre Luiz</h1>
-            <p>
-              and I'm a <Typewriter text='Front-End Developer' />
-            </p>
-            <a
-              className="link-button"
-              target="_blank"
-              href=""
-              download
-            >
-              <PictureAsPdfIcon fontSize="large" />
-              Resume
-            </a>
-            <a
-              className="link-button"
-              target="_blank"
-              href="mailto:alexandre.cerutti@live.com"
-            >
-              <EmailIcon fontSize="large" />
-              Hire Me
-            </a>
-            <div className="scroll-down-container">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-mouse" viewBox="0 0 16 16">
-                <path d="M8 3a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 3zm4 8a4 4 0 0 1-8 0V5a4 4 0 1 1 8 0v6zM8 0a5 5 0 0 0-5 5v6a5 5 0 0 0 10 0V5a5 5 0 0 0-5-5z" />
-              </svg>
-              <h3>Scroll down</h3>
-              <VscArrowDown />
-            </div>
-          </ScrollAnimation>
+
+          <h2>Welcome to my portfolio</h2>
+          <h2>My name is</h2>
+          <h1>Alexandre Luiz</h1>
+          <p>
+            and I'm a <Typewriter text='Front-End Developer' />
+          </p>
+          <a
+            className="link-button"
+            target="_blank"
+            href=""
+            download
+          >
+            <PictureAsPdfIcon fontSize="large" />
+            Resume
+          </a>
+          <a
+            className="link-button"
+            target="_blank"
+            href="mailto:alexandre.cerutti@live.com"
+          >
+            <EmailIcon fontSize="large" />
+            Hire Me
+          </a>
+          <div className="scroll-down-container">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-mouse" viewBox="0 0 16 16">
+              <path d="M8 3a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 3zm4 8a4 4 0 0 1-8 0V5a4 4 0 1 1 8 0v6zM8 0a5 5 0 0 0-5 5v6a5 5 0 0 0 10 0V5a5 5 0 0 0-5-5z" />
+            </svg>
+            <h3>Scroll down</h3>
+            <VscArrowDown />
+          </div>
+
         </Col>
         <div className="image-container">
           <img className="image-home" src={homeImage} alt="homeImage" />

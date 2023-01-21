@@ -1,0 +1,31 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #45A29E;
+    height: 550px;
+    padding-top: 80px;
+
+    .about-me-title {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 50px;
+    }
+
+    .about-me-title:before {
+        content: " { ";
+    }
+
+    .about-me-title:after {
+        content: " } ";
+    }
+
+    .about-row {
+        margin: 20px 50px;
+
+        .about-me-text {
+            font-family: "Montserrat", sans-serif;
+            color: #1F2833;
+        }
+    }
+}
