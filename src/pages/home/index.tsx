@@ -13,6 +13,7 @@ import HttpApi from "i18next-http-backend";
 import "bootstrap/dist/js/bootstrap.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "flag-icons/css/flag-icons.min.css"
+import mouse from '../../assets/svgs/mouse.svg'
 import './styles.scss'
 
 i18next
@@ -44,11 +45,11 @@ function Home() {
       <Row>
         <Col lg={6} className="home-col">
 
-          <h2>Welcome to my portfolio</h2>
-          <h2>My name is</h2>
+          <h2>{t("initial_message_1")}</h2>
+          <h2>{t("initial_message_2")}</h2>
           <h1>Alexandre Luiz</h1>
           <p>
-            and I'm a <Typewriter text='Front-End Developer' />
+            {t("initial_message_3")} <Typewriter text={t("initial_message_4")} />
           </p>
           <a
             className="link-button"
@@ -57,21 +58,19 @@ function Home() {
             download
           >
             <PictureAsPdfIcon fontSize="large" />
-            Resume
+            {t("resume")}
           </a>
           <a
             className="link-button"
             target="_blank"
-            href="mailto:alexandre.cerutti@live.com"
+            href="mailto:alexandre.cerutti@live.com" rel="noreferrer"
           >
             <EmailIcon fontSize="large" />
-            Hire Me
+            {t("hire_me")}
           </a>
           <div className="scroll-down-container">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-mouse" viewBox="0 0 16 16">
-              <path d="M8 3a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 3zm4 8a4 4 0 0 1-8 0V5a4 4 0 1 1 8 0v6zM8 0a5 5 0 0 0-5 5v6a5 5 0 0 0 10 0V5a5 5 0 0 0-5-5z" />
-            </svg>
-            <h3>Scroll down</h3>
+            <img src={mouse} alt='mouse' />
+            <h3>{t("scroll_down")}</h3>
             <VscArrowDown />
           </div>
 

@@ -1,5 +1,4 @@
 import { useTranslation } from "react-i18next";
-import Translator from "../translator";
 import { Row, Col } from "react-bootstrap";
 import "./styles.scss";
 import "animate.css/animate.min.css";
