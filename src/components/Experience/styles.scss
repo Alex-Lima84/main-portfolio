@@ -1,13 +1,13 @@
-.education {
-    background-color: #1F2833;
+.experience {
+    background-color: #45A29E;
     font-family: "Montserrat", sans-serif;
     padding-top: 80px;
     padding-bottom: 20px;
 
     h1 {
-        color: #66FCF1;
         text-align: center;
         font-weight: bold;
+        color: #1F2833;
     }
 
     h1:before {
@@ -24,17 +24,16 @@
         font-weight: bold;
     }
 
-
-    .education-date {
-        color: #66FCF1;
-        font-weight: bold;
+    ul {
+        color: #1F2833;
     }
-}
 
-@media (max-width: 1200px) {
-    .education {
-        .education-date {
-            color: #1F2833;
+    .experience-date {
+        color: #000;
+        font-weight: bold !important;
+
+        .experience-list {
+            font-family: "Montserrat", sans-serif;
         }
     }
 }

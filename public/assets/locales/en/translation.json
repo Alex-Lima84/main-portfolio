@@ -36,5 +36,18 @@
   "education_date_5": "5 years",
   "education_course_header_6": "Spanish language",
   "education_course_text_6": "Complete spanish course at Fisk language school",
-  "education_date_6": "4 years"
+  "education_date_6": "4 years",
+  "experience_date_1": "Sep 2022 - Present",
+  "experience_company_1": "Rocket Tecnologia",
+  "experience_area_1": "Web Application Development",
+  "experience_detail_1_a": "Front-end Developer",
+  "experience_detail_1_b": "Maintenance of the company's website",
+  "experience_detail_1_c": "Implementation of improvements, new features and bug fixes",
+  "experience_detail_1_d": "Participation in the implementation of new APIs of partner banking institutions (back-end)",
+  "experience_detail_1_e": "Tecnologies: TypeScript / JavaScript / ReactJS / Express / NestJS / Sass / Bootstrap",
+  "experience_date_2": "Apr 2022 - Sep 2022",
+  "experience_company_2": "Rocket Tecnologia",
+  "experience_area_2": "Web Application Development",
+  "experience_detail_2_a": "Front-end Development - Internship",
+  "experience_detail_2_b": "Tecnologies: TypeScript / JavaScript / ReactJS / Sass / Bootstrap"
 }

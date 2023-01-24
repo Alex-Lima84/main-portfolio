@@ -36,5 +36,18 @@
   "education_date_5": "5 años",
   "education_course_header_6": "Español",
   "education_course_text_6": "Curso completo de español en la escuela de idiomas Fisk",
-  "education_date_6": "4 años"
+  "education_date_6": "4 años",
+  "experience_date_1": "Sep 2022 - Presente",
+  "experience_company_1": "Rocket Tecnologia",
+  "experience_area_1": "Desarrollo de aplicación web",
+  "experience_detail_1_a": "Desarrollador front-end",
+  "experience_detail_1_b": "Mantenimiento de la página web de la empresa.",
+  "experience_detail_1_c": "Implementación de mejoras, nuevas funciones y corrección de errores.",
+  "experience_detail_1_d": "Participación en la implementación de nuevas APIs de instituciones bancarias colaboradoras (back-end)",
+  "experience_detail_1_e": "Tecnologías: TypeScript / JavaScript / ReactJS / Express / NestJS / Sass / Bootstrap",
+  "experience_date_2": "Apr 2022 - Sep 2022",
+  "experience_company_2": "Rocket Tecnologia",
+  "experience_area_2": "Desarrollo de aplicación web",
+  "experience_detail_2_a": "Desarrollo front-end - Interno",
+  "experience_detail_2_b": "Tecnologías: TypeScript / JavaScript / ReactJS / Sass / Bootstrap"
 }

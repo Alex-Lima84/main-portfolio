@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Home from "./pages/home";
 import About from './components/About'
 import Education from './components/Education'
+import Experience from './components/Experience'
 import './App.scss'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <About />
       <Education />
+      <Experience />
     </>
   );
 }
