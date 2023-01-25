@@ -49,5 +49,12 @@
   "experience_company_2": "Rocket Tecnologia",
   "experience_area_2": "Web Application Development",
   "experience_detail_2_a": "Front-end Development - Internship",
-  "experience_detail_2_b": "Tecnologies: TypeScript / JavaScript / ReactJS / Sass / Bootstrap"
+  "experience_detail_2_b": "Tecnologies: TypeScript / JavaScript / ReactJS / Sass / Bootstrap",
+  "others_tech": "Others Tech",
+  "others_tech_text": "Responsive design",
+  "soft_skills_text_1": "Self-motivation",
+  "soft_skills_text_2": "Teamwork",
+  "soft_skills_text_3": "Responsibility",
+  "soft_skills_text_4": "Problem-solving",
+  "soft_skills_text_5": "Time management"
 }

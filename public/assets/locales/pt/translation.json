@@ -49,5 +49,12 @@
   "experience_company_2": "Rocket Tecnologia",
   "experience_area_2": "Desenvolvimento de aplicação web",
   "experience_detail_2_a": "Desenvolvimento front-end - Estágio",
-  "experience_detail_2_b": "Tecnologias: TypeScript / JavaScript / ReactJS / Sass / Bootstrap"
+  "experience_detail_2_b": "Tecnologias: TypeScript / JavaScript / ReactJS / Sass / Bootstrap",
+  "others_tech": "Outras Tecnologias",
+  "others_tech_text": "Design responsivo", 
+  "soft_skills_text_1": "Automotivação",
+  "soft_skills_text_2": "Trabalho em equipe",
+  "soft_skills_text_3": "Responsabilidade",
+  "soft_skills_text_4": "Mentalidade de resolução de problemas",
+  "soft_skills_text_5": "Gerenciamento de tempo"
 }

@@ -49,5 +49,12 @@
   "experience_company_2": "Rocket Tecnologia",
   "experience_area_2": "Desarrollo de aplicación web",
   "experience_detail_2_a": "Desarrollo front-end - Interno",
-  "experience_detail_2_b": "Tecnologías: TypeScript / JavaScript / ReactJS / Sass / Bootstrap"
+  "experience_detail_2_b": "Tecnologías: TypeScript / JavaScript / ReactJS / Sass / Bootstrap",
+  "others_tech": "Otras Tecnologías",
+  "others_tech_text": "Diseño responsivo", 
+  "soft_skills_text_1": "Automotivación",
+  "soft_skills_text_2": "Trabajo en equipo",
+  "soft_skills_text_3": "Responsabilidad",
+  "soft_skills_text_4": "Mentalidad de resolución de problemas",
+  "soft_skills_text_5": "Gestión del tiempo"
 }
