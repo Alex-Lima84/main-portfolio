@@ -1,0 +1,42 @@
+.project {
+    background-color: #45A29E;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 80px;
+    padding-bottom: 20px;
+
+    h1 {
+        text-align: center;
+        font-weight: bold;
+        color: #1F2833;
+    }
+
+    h1:before {
+        content: " { ";
+    }
+
+    h1:after {
+        content: " } ";
+    }
+
+    .project-label-title {
+        color: #000;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .project-detail {
+        color: #000;
+        font-weight: bold;
+    }
+
+    .project-image {        
+        height: 250px;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+
+    .project-button {
+        width: 120px;
+        margin: 15px 5px 0 0;
+    }
+}

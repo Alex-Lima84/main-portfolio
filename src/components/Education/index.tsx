@@ -24,7 +24,7 @@ function Education() {
                         iconStyle={{ background: "#66FCF1", color: "#1F2833" }}
                         icon={<SchoolIcon />}
                     >
-                        <h3>{t("education_course_header_1")}</h3>
+                        <h3>{t("education_course_title_1")}</h3>
                         <a href="https://www.unicesumar.edu.br/ead/cursos-graduacao/analise-e-desenvolvimento-de-sistemas/"></a>
                         <h5>{t("education_course_text_1")}</h5>
                     </VerticalTimelineElement>
@@ -36,7 +36,7 @@ function Education() {
                         iconStyle={{ background: "#66FCF1", color: "#1F2833" }}
                         icon={<SchoolIcon />}
                     >
-                        <h3>{t("education_course_header_2")}</h3>
+                        <h3>{t("education_course_title_2")}</h3>
                         <a href="https://dev-em-dobro.members.ticto.com.br/portal"></a>
                         <h5>{t("education_course_text_2")}</h5>
                     </VerticalTimelineElement>
@@ -48,7 +48,7 @@ function Education() {
                         iconStyle={{ background: "#66FCF1", color: "#1F2833" }}
                         icon={<SchoolIcon />}
                     >
-                        <h3>{t("education_course_header_3")}</h3>
+                        <h3>{t("education_course_title_3")}</h3>
                         <a href="https://www.udemy.com/course/typescript-do-basico-ao-avancado-c-react-express/"></a>
                         <h5>{t("education_course_text_3")}</h5>
                     </VerticalTimelineElement>
@@ -60,7 +60,7 @@ function Education() {
                         iconStyle={{ background: "#66FCF1", color: "#1F2833" }}
                         icon={<SchoolIcon />}
                     >
-                        <h3>{t("education_course_header_4")}</h3>
+                        <h3>{t("education_course_title_4")}</h3>
                         <a href="https://www.udemy.com/course/dev-fullstack/"></a>
                         <h5>{t("education_course_text_4")}</h5>
                     </VerticalTimelineElement>
@@ -72,7 +72,7 @@ function Education() {
                         iconStyle={{ background: "#66FCF1", color: "#1F2833" }}
                         icon={<SchoolIcon />}
                     >
-                        <h3>{t("education_course_header_5")}</h3>
+                        <h3>{t("education_course_title_5")}</h3>
                         <a href="https://fisk.com.br/"></a>
                         <h5>{t("education_course_text_5")}</h5>
                     </VerticalTimelineElement>
@@ -84,7 +84,7 @@ function Education() {
                         iconStyle={{ background: "#66FCF1", color: "#1F2833" }}
                         icon={<SchoolIcon />}
                     >
-                        <h3>{t("education_course_header_6")}</h3>
+                        <h3>{t("education_course_title_6")}</h3>
                         <a href="https://fisk.com.br/"></a>
                         <h5>{t("education_course_text_6")}</h5>
                     </VerticalTimelineElement>
