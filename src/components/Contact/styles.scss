@@ -1,0 +1,62 @@
+.contact {
+    background-color: #1F2833;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+
+    h1 {
+        color: #66FCF1;
+        font-weight: bold;
+    }
+
+    h1:before {
+        content: " { ";
+    }
+
+    h1:after {
+        content: " } ";
+    }
+
+    .social-medias-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        padding: 0;
+
+        li {
+            margin: 20px;
+
+            a {
+                color: #EEEEEE;
+
+                svg {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+
+            a:hover {
+                color: #66FCF1;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 500px) {
+    .contact {
+        .social-medias-list {
+            li {
+                a {
+                    svg {
+                        width: 25px;
+                        height: 24px;
+                    }
+                }
+            }
+        }
+    }
+}

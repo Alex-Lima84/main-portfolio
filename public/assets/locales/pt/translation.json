@@ -51,7 +51,7 @@
   "experience_detail_2_a": "Desenvolvimento front-end - Estágio",
   "experience_detail_2_b": "Tecnologias: TypeScript / JavaScript / ReactJS / Sass / Bootstrap",
   "others_tech": "Outras Tecnologias",
-  "others_tech_text": "Design responsivo", 
+  "others_tech_text": "Design responsivo",
   "soft_skills_text_1": "Automotivação",
   "soft_skills_text_2": "Trabalho em equipe",
   "soft_skills_text_3": "Responsabilidade",
@@ -64,5 +64,6 @@
   "project_title_5": "Banco de dados de pokemóns",
   "project_title_6": "Banco de dados do GitHub",
   "repository": "Repositório",
-  "website": "Website"
+  "website": "Website",
+  "footer_text": "Todos os direitos reservados"
 }
