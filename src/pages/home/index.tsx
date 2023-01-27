@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect } from 'react'
 import { Row, Col } from "react-bootstrap";
 import Typewriter from 'react-ts-typewriter';
@@ -35,6 +36,19 @@ i18next
 function Home() {
   const { t } = useTranslation();
   const currentLanguage = localStorage.getItem('i18nextLng')
+
+  // switch (currentLanguage) {
+  //   case 'en':
+  //     let resume = require("../../assets/docs/resume(en-es).pdf")
+  //     break;
+  //   case 'pt':
+  //     resume = require("../../assets/docs/curriculo(pt).pdf")
+  //     break
+  //   case 'es':
+  //     resume = require("../../assets/docs/resume(en-es).pdf")
+  //     break
+  // }
+
 
   useEffect(() => {
     document.title = t('app_title')

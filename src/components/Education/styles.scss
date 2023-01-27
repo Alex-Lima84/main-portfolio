@@ -1,11 +1,11 @@
 .education {
-    background-color: #1F2833;
+    background-color: #D6E4E5;
     font-family: "Montserrat", sans-serif;
     padding-top: 80px;
     padding-bottom: 20px;
 
     h1 {
-        color: #66FCF1;
+        color: #111b1b;
         text-align: center;
         font-weight: bold;
     }
@@ -20,21 +20,14 @@
 
     h3,
     h5 {
-        color: #1F2833;
+        color: #111b1b;
         font-weight: bold;
     }
 
 
     .education-date {
-        color: #66FCF1;
+        color: #111b1b;
         font-weight: bold;
-    }
-}
-
-@media (max-width: 1200px) {
-    .education {
-        .education-date {
-            color: #1F2833;
-        }
+        font-size: 18px;
     }
 }

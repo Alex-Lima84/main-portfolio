@@ -6,24 +6,14 @@ import './styles.scss'
 
 
 function Header() {
-    const { t } = useTranslation();
-    const [isScroll, setIsScroll] = useState(false);
-    const hanndleScroll = () => {
-        if (window.scrollY >= 100) {
-            setIsScroll(true);
-        } else {
-            setIsScroll(false);
-        }
-    };
-    window.addEventListener("scroll", hanndleScroll);
+    const { t } = useTranslation();  
 
     return (
         <header>
             <Navbar
-                className={isScroll ? "navbar colorChange" : "navbar"}
+                className="navbar"
                 collapseOnSelect
-                expand="xl"
-                variant={isScroll ? "dark" : "light"}
+                expand="xl"              
                 fixed="top"
             >
                 <Container>

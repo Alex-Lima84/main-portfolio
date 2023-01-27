@@ -1,5 +1,5 @@
 .experience {
-    background-color: #45A29E;
+    background-color: #497174;
     font-family: "Montserrat", sans-serif;
     padding-top: 80px;
     padding-bottom: 20px;
@@ -7,7 +7,7 @@
     h1 {
         text-align: center;
         font-weight: bold;
-        color: #1F2833;
+        color: #D6E4E5;
     }
 
     h1:before {
@@ -20,20 +20,16 @@
 
     h3,
     h5 {
-        color: #1F2833;
+        color: #111b1b;
         font-weight: bold;
     }
 
     ul {
-        color: #1F2833;
+        color: #111b1b;
     }
 
     .experience-date {
-        color: #000;
-        font-weight: bold !important;
-
-        .experience-list {
-            font-family: "Montserrat", sans-serif;
-        }
+        color: #111b1b;
+        font-weight: bold;       
     }
 }

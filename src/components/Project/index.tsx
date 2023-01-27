@@ -24,7 +24,7 @@ function Project() {
                             background: "#EEEEEE",
                             color: "#fff"
                         }}
-                        iconStyle={{ background: "#1F2833", color: "#fff" }}
+                        iconStyle={{ background: "#60979b", color: "#111b1b" }}
                         icon={<VscCircuitBoard />}
                     >
                         <h3 className="project-label-title">{t("project_title_1")}</h3>
@@ -32,7 +32,7 @@ function Project() {
 
                         <Button
                             className="project-button"
-                            variant="dark"
+                            variant="light"
                             color="default"
                             target="_blank"
                             href='https://github.com/Alex-Lima84/my-portfolio'
@@ -48,13 +48,13 @@ function Project() {
                             background: "#EEEEEE",
                             color: "#fff"
                         }}
-                        iconStyle={{ background: "#1F2833", color: "#fff" }}
+                        iconStyle={{ background: "#60979b", color: "#111b1b" }}
                         icon={<VscCircuitBoard />}                    >
                         <h3 className="project-label-title">{t("project_title_2")}</h3>
                         <img className="project-image" src={require(`../../assets/images/store.png`)} />
                         <Button
                             className="project-button"
-                            variant="dark"
+                            variant="light"
                             color="default"
                             target="_blank"
                             href='https://github.com/Alex-Lima84/online-store'
@@ -63,7 +63,7 @@ function Project() {
                         </Button>
                         <Button
                             className="project-button"
-                            variant="dark"
+                            variant="light"
                             color="default"
                             target="_blank"
                             href='https://fictional-online-store.vercel.app/'
@@ -78,13 +78,13 @@ function Project() {
                             background: "#EEEEEE",
                             color: "#fff"
                         }}
-                        iconStyle={{ background: "#1F2833", color: "#fff" }}
+                        iconStyle={{ background: "#60979b", color: "#111b1b" }}
                         icon={<VscCircuitBoard />}                    >
                         <h3 className="project-label-title">{t("project_title_3")}</h3>
                         <img className="project-image" src={require(`../../assets/images/movie.png`)} />
                         <Button
                             className="project-button"
-                            variant="dark"
+                            variant="light"
                             color="default"
                             target="_blank"
                             href='https://github.com/Alex-Lima84/movie-search-api'
@@ -93,7 +93,7 @@ function Project() {
                         </Button>
                         <Button
                             className="project-button"
-                            variant="dark"
+                            variant="light"
                             color="default"
                             target="_blank"
                             href='https://movie-search-al.vercel.app/'
@@ -108,13 +108,13 @@ function Project() {
                             background: "#EEEEEE",
                             color: "#fff"
                         }}
-                        iconStyle={{ background: "#1F2833", color: "#fff" }}
+                        iconStyle={{ background: "#60979b", color: "#111b1b" }}
                         icon={<VscCircuitBoard />}                    >
                         <h3 className="project-label-title">{t("project_title_4")}</h3>
                         <img className="project-image" src={require(`../../assets/images/weather.png`)} />
                         <Button
                             className="project-button"
-                            variant="dark"
+                            variant="light"
                             color="default"
                             target="_blank"
                             href='https://github.com/Alex-Lima84/weather-forecast'
@@ -123,7 +123,7 @@ function Project() {
                         </Button>
                         <Button
                             className="project-button"
-                            variant="dark"
+                            variant="light"
                             color="default"
                             target="_blank"
                             href='https://my-weather-forecast.vercel.app/'
@@ -138,13 +138,13 @@ function Project() {
                             background: "#EEEEEE",
                             color: "#fff"
                         }}
-                        iconStyle={{ background: "#1F2833", color: "#fff" }}
+                        iconStyle={{ background: "#60979b", color: "#111b1b" }}
                         icon={<VscCircuitBoard />}                    >
                         <h3 className="project-label-title">{t("project_title_5")}</h3>
                         <img className="project-image" src={require(`../../assets/images/pokemon.png`)} />
                         <Button
                             className="project-button"
-                            variant="dark"
+                            variant="light"
                             color="default"
                             target="_blank"
                             href='https://github.com/Alex-Lima84/pokemon-react-api'
@@ -153,7 +153,7 @@ function Project() {
                         </Button>
                         <Button
                             className="project-button"
-                            variant="dark"
+                            variant="light"
                             color="default"
                             target="_blank"
                             href='https://pokemon-project-api.netlify.app/'
@@ -168,13 +168,13 @@ function Project() {
                             background: "#EEEEEE",
                             color: "#fff"
                         }}
-                        iconStyle={{ background: "#1F2833", color: "#fff" }}
+                        iconStyle={{ background: "#60979b", color: "#111b1b" }}
                         icon={<VscCircuitBoard />}                    >
                         <h3 className="project-label-title">{t("project_title_6")}</h3>
                         <img className="project-image" src={require(`../../assets/images/github.png`)} />
                         <Button
                             className="project-button"
-                            variant="dark"
+                            variant="light"
                             color="default"
                             target="_blank"
                             href='https://github.com/Alex-Lima84/fetch-github-api'
@@ -183,7 +183,7 @@ function Project() {
                         </Button>
                         <Button
                             className="project-button"
-                            variant="dark"
+                            variant="light"
                             color="default"
                             target="_blank"
                             href='https://alex-lima84.github.io/fetch-github-api/'

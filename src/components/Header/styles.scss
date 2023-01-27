@@ -2,19 +2,23 @@ header {
     font-family: "Montserrat", sans-serif;
 
     h1 {
-        color: #1F2833;
+        color: #497174;
         font-weight: bold;
         font-size: 1.6rem;
     }
 
     a {
-        color: #1F2833 !important;
+        color: #497174;
         font-size: 1rem;
         font-weight: bold;
     }
 
-    .navbar {       
-        background-color: #45A29E;
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #EFF5F5;
+
         margin: auto -16px;
         padding: 5px auto;
         box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -22,6 +26,7 @@ header {
 
         .container {
             display: flex;
+            align-items: center;
             justify-content: space-between;
             margin: 0 20px;
 
@@ -29,33 +34,25 @@ header {
                 margin-left: -15px;
 
                 .dropdown-menu {
-                    background-color: #45A29E;
+                    background-color: #EFF5F5;
                 }
             }
 
-            .collapse {
-                margin-left: 350px;
+            .navbar-collapse {
+
+                justify-content: flex-end;
+
+                .navbar-nav {
+                    a {
+                        font-weight: bold;
+                    }
+                    a:hover,
+                    :focus {
+                        color: #497174;
+                    } 
+                }
             }
-        }
-
-
-        a:hover,
-        :focus {
-            color: #19c7bb !important;
-        }
-
-        .colorChange {
-            background-color: #1F2833;
-        }
-
-        .colorChange h1 {
-            color: #45A29E;
-        }
-
-        .colorChange a {
-            color: #45A29E !important;
-            text-decoration: none;
-        }
+        }  
     }
 }
 

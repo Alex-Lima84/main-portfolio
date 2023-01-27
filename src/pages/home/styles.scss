@@ -1,5 +1,5 @@
 .home {
-    background-color: #1F2833;
+    background-color: #D6E4E5;
     text-align: left;
     padding: 5% 5%;
     position: relative;
@@ -19,30 +19,36 @@
             p {
                 font-family: "Montserrat", sans-serif;
                 font-weight: bold;
-                color: #66FCF1;
+                color: #111b1b;
             }
 
             p {
                 span {
                     font-size: large;
-                    color: #C5C6C7;
+                    color: #EB6440;
                 }
             }
 
-            .link-button {
-                margin: 5% 3% 5% 0%;
+            .link-button {  
+                display: inline-block;        
+                margin: 10px 5px 10px 0;
                 padding: 5px;
                 outline: none;
                 border: none;
                 border-radius: 5px;
-                background-color: #66FCF1;
-                width: 100px;
+                background-color: #497174;
+                width: 130px;   
+                height: 38px;
+                            
                 font-size: 16px;
-                color: #1F2833;
-
+                color: #D6E4E5;
+                text-align: center;
                 svg {
-                    width: 20px;
-                }
+                    width: 20px;                   
+                    margin-right: 5px; 
+                    height: 30px;
+                line-height: 30px;                  
+                }             
             }
 
             .link-button:hover {
@@ -56,7 +62,7 @@
                 left: 40%;
 
                 svg {
-                    color: #fff;
+                    color: #111b1b;
                 }
 
                 svg:last-child {

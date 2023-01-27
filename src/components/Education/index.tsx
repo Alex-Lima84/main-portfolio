@@ -17,11 +17,11 @@ function Education() {
                 <h1>{t("education")}</h1>
                 <VerticalTimeline>
                     <VerticalTimelineElement
-                        contentStyle={{ background: "#45A29E", color: "#8892b0" }}
+                        contentStyle={{ background: "#497174", color: "#111b1b" }}
 
                         date={t("education_date_1")}
                         dateClassName="education-date"
-                        iconStyle={{ background: "#66FCF1", color: "#1F2833" }}
+                        iconStyle={{ background: "#EFF5F5", color: "#1F2833" }}
                         icon={<SchoolIcon />}
                     >
                         <h3>{t("education_course_title_1")}</h3>
@@ -29,11 +29,11 @@ function Education() {
                         <h5>{t("education_course_text_1")}</h5>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
-                        contentStyle={{ background: "#45A29E", color: "#8892b0" }}
+                        contentStyle={{ background: "#497174", color: "#111b1b" }}
 
                         date={t("education_date_2")}
                         dateClassName="education-date"
-                        iconStyle={{ background: "#66FCF1", color: "#1F2833" }}
+                        iconStyle={{ background: "#EFF5F5", color: "#1F2833" }}
                         icon={<SchoolIcon />}
                     >
                         <h3>{t("education_course_title_2")}</h3>
@@ -41,11 +41,11 @@ function Education() {
                         <h5>{t("education_course_text_2")}</h5>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
-                        contentStyle={{ background: "#45A29E", color: "#8892b0" }}
+                        contentStyle={{ background: "#497174", color: "#111b1b" }}
 
                         date={t("education_date_3")}
                         dateClassName="education-date"
-                        iconStyle={{ background: "#66FCF1", color: "#1F2833" }}
+                        iconStyle={{ background: "#EFF5F5", color: "#1F2833" }}
                         icon={<SchoolIcon />}
                     >
                         <h3>{t("education_course_title_3")}</h3>
@@ -53,11 +53,11 @@ function Education() {
                         <h5>{t("education_course_text_3")}</h5>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
-                        contentStyle={{ background: "#45A29E", color: "#8892b0" }}
+                        contentStyle={{ background: "#497174", color: "#111b1b" }}
 
                         date={t("education_date_4")}
                         dateClassName="education-date"
-                        iconStyle={{ background: "#66FCF1", color: "#1F2833" }}
+                        iconStyle={{ background: "#EFF5F5", color: "#1F2833" }}
                         icon={<SchoolIcon />}
                     >
                         <h3>{t("education_course_title_4")}</h3>
@@ -65,11 +65,11 @@ function Education() {
                         <h5>{t("education_course_text_4")}</h5>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
-                        contentStyle={{ background: "#45A29E", color: "#8892b0" }}
+                        contentStyle={{ background: "#497174", color: "#111b1b" }}
 
                         date={t("education_date_5")}
                         dateClassName="education-date"
-                        iconStyle={{ background: "#66FCF1", color: "#1F2833" }}
+                        iconStyle={{ background: "#EFF5F5", color: "#1F2833" }}
                         icon={<SchoolIcon />}
                     >
                         <h3>{t("education_course_title_5")}</h3>
@@ -77,11 +77,11 @@ function Education() {
                         <h5>{t("education_course_text_5")}</h5>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
-                        contentStyle={{ background: "#45A29E", color: "#8892b0" }}
+                        contentStyle={{ background: "#497174", color: "#111b1b" }}
 
                         date={t("education_date_6")}
                         dateClassName="education-date"
-                        iconStyle={{ background: "#66FCF1", color: "#1F2833" }}
+                        iconStyle={{ background: "#EFF5F5", color: "#1F2833" }}
                         icon={<SchoolIcon />}
                     >
                         <h3>{t("education_course_title_6")}</h3>
