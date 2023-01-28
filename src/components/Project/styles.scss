@@ -30,75 +30,75 @@
     }
 
     .project-image {
-        height: 250px;
+        height: 250px;      
         border-radius: 5px;
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     }
 
     .project-button {
         width: 120px;
-        margin: 30px 5px;
+        margin: 30px 10px;
     }
 }
 
-@media (max-width: 1170px) {
+// @media (max-width: 1170px) {
 
-    .project {
-       div {
-        .vertical-timeline {
-            .vertical-timeline-element {    
-                display: flex;
-                align-items: center;
-                justify-content: center;                      
-                .vertical-timeline-element-content {                    
-                    max-width: 500px;    
-                    margin-left: 0;               
-                }
-            }
-        }
-       }
-    }
-}
+//     .project {
+//        div {
+//         .vertical-timeline {
+//             .vertical-timeline-element {    
+//                 display: flex;
+//                 align-items: center;
+//                 justify-content: center;                      
+//                 .vertical-timeline-element-content {                    
+//                     max-width: 500px;    
+//                     margin-left: 0;               
+//                 }
+//             }
+//         }
+//        }
+//     }
+// }
 
-@media (max-width: 600px) {
+// @media (max-width: 600px) {
 
-    .project {
-       div {
-        .vertical-timeline {
-            .vertical-timeline-element {    
-                display: flex;
-                align-items: center;
-                justify-content: center;          
-                .vertical-timeline-element-content {                    
-                    max-width: 400px;    
-                    .project-image {
-                        height: 100%;
-                    }             
-                }
-            }
-        }
-       }
-    }
-}
+//     .project {
+//        div {
+//         .vertical-timeline {
+//             .vertical-timeline-element {    
+//                 display: flex;
+//                 align-items: center;
+//                 justify-content: center;          
+//                 .vertical-timeline-element-content {                    
+//                     max-width: 400px;    
+//                     .project-image {
+//                         height: 100%;
+//                     }             
+//                 }
+//             }
+//         }
+//        }
+//     }
+// }
 
-@media (max-width: 375px) {
+// @media (max-width: 375px) {
 
-    .project {
-       div {
-        .vertical-timeline {
-            .vertical-timeline-element {                  
-                .vertical-timeline-element-content {  
+//     .project {
+//        div {
+//         .vertical-timeline {
+//             .vertical-timeline-element {                  
+//                 .vertical-timeline-element-content {  
                     
-                    .project-image {
-                        margin-bottom: 10px;
-                    }             
+//                     .project-image {
+//                         margin-bottom: 10px;
+//                     }             
                     
-                 .project-button {
-                    margin: 10px 5px;
-                 }
-                }
-            }
-        }
-       }
-    }
-}
+//                  .project-button {
+//                     margin: 10px 5px;
+//                  }
+//                 }
+//             }
+//         }
+//        }
+//     }
+// }
