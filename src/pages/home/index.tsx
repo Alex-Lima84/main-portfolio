@@ -15,6 +15,8 @@ import "bootstrap/dist/js/bootstrap.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "flag-icons/css/flag-icons.min.css"
 import mouse from '../../assets/svgs/mouse.svg'
+import resume from '../../assets/docs/resume.pdf'
+import curriculo from '../../assets/docs/curriculo.pdf'
 import './styles.scss'
 
 i18next
@@ -37,19 +39,6 @@ function Home() {
   const { t } = useTranslation();
   const currentLanguage = localStorage.getItem('i18nextLng')
 
-  // switch (currentLanguage) {
-  //   case 'en':
-  //     let resume = require("../../assets/docs/resume(en-es).pdf")
-  //     break;
-  //   case 'pt':
-  //     resume = require("../../assets/docs/curriculo(pt).pdf")
-  //     break
-  //   case 'es':
-  //     resume = require("../../assets/docs/resume(en-es).pdf")
-  //     break
-  // }
-
-
   useEffect(() => {
     document.title = t('app_title')
   }, [currentLanguage, t])
@@ -65,15 +54,24 @@ function Home() {
           <p>
             {t("initial_message_3")} <Typewriter text={t("initial_message_4")} />
           </p>
-          <a
+          {currentLanguage === 'en' || currentLanguage === 'es' ? <a
             className="link-button"
             target="_blank"
-            href=""
-            download
+            href={resume}
+            download rel="noreferrer"
           >
             <PictureAsPdfIcon fontSize="large" />
             {t("resume")}
-          </a>
+          </a> : <a
+            className="link-button"
+            target="_blank"
+            href={curriculo}
+            download rel="noreferrer"
+          >
+            <PictureAsPdfIcon fontSize="large" />
+            {t("resume")}
+          </a>}
+
           <a
             className="link-button"
             target="_blank"
