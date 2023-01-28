@@ -18,7 +18,7 @@ function Contact() {
             <h1>{t("contact")}</h1>
             <ul className="social-medias-list">                
                 <li className="contact-col">
-                    <a className="contact-a" href="https://github.com/Alex-Lima8">
+                    <a className="contact-a" href="https://github.com/Alex-Lima84">
                         <GitHubIcon />
                     </a>
                 </li>
