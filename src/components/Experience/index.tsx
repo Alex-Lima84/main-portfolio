@@ -24,14 +24,12 @@ function Experience() {
                     <VerticalTimelineElement
 
                         contentStyle={{ background: "#D6E4E5", color: "#fff" }}
-
-                        date={t("experience_date_1")}
                         dateClassName="experience-date"
                         iconStyle={{ background: "#60979b", color: "#497174" }}
-                        icon={<WorkIcon />}
-                    >
+                        icon={<WorkIcon />}                    >
                         <h3>{t("experience_company_1")}</h3>
                         <h5>{t("experience_area_1")}</h5>
+                        <span className="experience-date vertical-timeline-element-date">{t("experience_date_1")}</span>
                         <List>
 
                             <ListItem >
@@ -85,14 +83,12 @@ function Experience() {
                     <VerticalTimelineElement
 
                         contentStyle={{ background: "#D6E4E5", color: "#fff" }}
-
-                        date={t("experience_date_2")}
                         dateClassName="experience-date"
                         iconStyle={{ background: "#60979b", color: "#497174" }}
-                        icon={<WorkIcon />}
-                    >
+                        icon={<WorkIcon />}                    >
                         <h3>{t("experience_company_2")}</h3>
                         <h5>{t("experience_area_2")}</h5>
+                        <span className="experience-date vertical-timeline-element-date">{t("experience_date_2")}</span>
                         <List>
 
                             <ListItem >
