@@ -49,10 +49,53 @@
             .vertical-timeline-element {    
                 display: flex;
                 align-items: center;
+                justify-content: center;                      
+                .vertical-timeline-element-content {                    
+                    max-width: 500px;    
+                    margin-left: 0;               
+                }
+            }
+        }
+       }
+    }
+}
+
+@media (max-width: 600px) {
+
+    .project {
+       div {
+        .vertical-timeline {
+            .vertical-timeline-element {    
+                display: flex;
+                align-items: center;
                 justify-content: center;          
-                .vertical-timeline-element-content {
+                .vertical-timeline-element-content {                    
+                    max-width: 400px;    
+                    .project-image {
+                        height: 100%;
+                    }             
+                }
+            }
+        }
+       }
+    }
+}
+
+@media (max-width: 375px) {
+
+    .project {
+       div {
+        .vertical-timeline {
+            .vertical-timeline-element {                  
+                .vertical-timeline-element-content {  
                     
-                    max-width: 500px;
+                    .project-image {
+                        margin-bottom: 10px;
+                    }             
+                    
+                 .project-button {
+                    margin: 10px 5px;
+                 }
                 }
             }
         }

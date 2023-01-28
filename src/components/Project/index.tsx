@@ -28,7 +28,7 @@ function Project() {
                         icon={<VscCircuitBoard />}
                     >
                         <h3 className="project-label-title">{t("project_title_1")}</h3>
-                        <img className="project-image" src={require(`../../assets/images/store.png`)} />
+                        <img className="project-image" src={require(`../../assets/images/portfolio.png`)} />
 
                         <Button
                             className="project-button"
