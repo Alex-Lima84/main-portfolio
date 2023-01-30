@@ -1,9 +1,4 @@
 import { useTranslation } from "react-i18next";
-import {
-    Container,
-    Row,
-    Col
-} from "react-bootstrap";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import InstagramIcon from "@material-ui/icons/Instagram";
 import EmailIcon from "@material-ui/icons/Email";
