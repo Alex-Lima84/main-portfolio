@@ -18,7 +18,7 @@ function Skill() {
     return (
         <section className="section skill" id="skill">
             <div>
-                <h1>Skills</h1>
+                <h1>{t('skills')}</h1>
             </div>
             <div>
                 <Row>
