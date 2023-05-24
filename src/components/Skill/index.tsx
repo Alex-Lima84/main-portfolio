@@ -75,6 +75,9 @@ function Skill() {
                                         <li className="list-group-item">
                                             ReactJS
                                         </li>
+                                        <li className="list-group-item">
+                                            Node.js
+                                        </li>
                                     </ul>
                                 </CardContent>
                             </Card>
@@ -96,6 +99,12 @@ function Skill() {
                                     </Avatar>
                                     <h3>{t("others_tech")}</h3>
                                     <ul className="list-group list-group-flush">
+                                        <li className="list-group-item">
+                                            PostgreSQL
+                                        </li>
+                                        <li className="list-group-item">
+                                            Express.js
+                                        </li>
                                         <li className="list-group-item">
                                             HTML5
                                         </li>
